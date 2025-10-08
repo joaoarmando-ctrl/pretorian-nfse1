@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --brand: #0A2540; }
+
+body { font-feature-settings: "cv02","cv03","cv04","cv11"; }
+.container { @apply max-w-6xl mx-auto px-4; }
+
+.dragging { opacity: .6; }
+.dropzone { @apply border rounded-md p-2 bg-slate-50; }
+.draggable { @apply border rounded-md px-2 py-1 text-xs bg-white cursor-move; }
